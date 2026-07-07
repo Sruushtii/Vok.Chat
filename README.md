@@ -248,7 +248,6 @@ VokChat/
 │   ├── index.js              # Express + Socket.IO server
 │   └── package.json          # Backend dependencies
 ├── public/                # Static assets
-│   ├── logs.png              # Backend server logs
 │   └── fonts/            # Custom typography
 ├── package.json              # Frontend dependencies
 ├── tailwind.config.js        # Tailwind configuration
@@ -340,19 +339,7 @@ PORT=5001
 NODE_ENV=production
 ```
 
----
 
-## Backend Logs
-
-<div align="center">
-
-![Backend Server Logs](public/logs.png)
-
-*Real-time backend server logs showing successful WebSocket connections and room management*
-
-</div>
-
----
 
 ## Acknowledgments
 
